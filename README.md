@@ -20,7 +20,6 @@ Here’s the magic behind my implementation:
 | Buffer Wizard   | Manages a `BUFFER_SIZE` chunk for smooth reading.     |
 | Memory Keeper   | Uses a static variable to hold leftover data.         |
 | Leak Protector  | Frees memory like a pro—no leaks here!                |
-| Bonus Mode      | Handles multiple file descriptors (if included).      |
 
 ---
 
