@@ -19,7 +19,7 @@ Here’s the magic behind my implementation:
 | Line Reader     | Grabs text up to a newline (`\n`) or end of file.     |
 | Buffer Wizard   | Manages a `BUFFER_SIZE` chunk for smooth reading.     |
 | Memory Keeper   | Uses a static variable to hold leftover data.         |
-| Leak Protector  | Frees memory like a pro—no leaks here!                |
+| Leak Protector  | Frees memory!                |
 
 ---
 
@@ -31,7 +31,6 @@ Here’s the magic behind my implementation:
 - **Step 2**: Read a chunk into the buffer.
 - **Step 3**: Spot that precious `\n`.
 - **Step 4**: Deliver the line, save the rest.
-- **Step 5**: Keep going until the end!
 
 ---
 📂 **File Content**: "Hello\nWorld\n42"<br>
